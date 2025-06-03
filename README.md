@@ -53,6 +53,9 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
    - Click the notification or button to open the problem in your browser.
 
 ## Screenshots
+1. **When extension is used on any website other LeetCode**:
 ![When extension is used on any website other LeetCode](https://raw.githubusercontent.com/AkarshRastogi/LeetPrac/main/img/extension_not_on_LC.png)
+2. **When extension is used on LeetCode**:
 ![When extension is used on LeetCode](https://raw.githubusercontent.com/AkarshRastogi/LeetPrac/main/img/extension_on_LC.png)
+3. **Reminder Setup**:
 ![Reminder Setup](https://raw.githubusercontent.com/AkarshRastogi/LeetPrac/main/img/reminder_setup.png)
