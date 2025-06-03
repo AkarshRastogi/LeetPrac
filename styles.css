@@ -1,0 +1,118 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+  background-color: white;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #25b33f;
+}
+
+#status {
+  padding: 8px;
+  border-radius: 4px;
+  display: none;
+}
+
+.success {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+input[type="datetime-local"] {
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 14px;
+  width:auto;
+}
+
+/* Style the calendar and time picker */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* #recent-reminders {
+  /* margin-top: 2px; */
+  /* border-top: 1px solid #e5e7eb; */
+  /* padding-top: 16px; */
+
+
+#recent-reminders h3 {
+  margin: 0 0 12px 0;
+  color: #374151;
+  font-size: 16px;
+}
+
+.reminder-item {
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.reminder-item .title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.reminder-item .time {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.reminder-item.expired {
+  background-color: white;
+}
+
+.reminder-item .status {
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.status.active {
+  background-color: greenyellow;
+  color: #1e40af;
+}
+
+.status.expired {
+  background-color: red;
+  color: white;
+}

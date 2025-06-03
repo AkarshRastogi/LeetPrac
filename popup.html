@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LeetCode Practice Reminder</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div id="status"></div>
+    <div id="problem-info" style="display: none;">
+      <h2 id="problem-title"></h2>
+      <div class="form-group">
+        <label for="reminder-date">Remind me on:</label>
+        <input type="datetime-local" id="reminder-date" min="">
+      </div>
+      <button id="set-reminder">Set Reminder</button>
+    </div>
+    <div id="not-leetcode">
+      <p>Please open a LeetCode problem page to set a reminder.</p>
+    </div>
+    <div id="recent-reminders">
+      <h3>Recent Reminders:</h3>
+      <div id="reminders-list"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
