@@ -5,7 +5,7 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
 
 ## Overview
 
-**LeetReminder** is a Chrome extension designed to help you schedule reminders for revisiting LeetCode problems. It allows you to set a specific date and time to practice a problem again, displaying the current date and time (e.g., 2025-06-04T02:42 IST) before setting the reminder. When the reminder is due, a notification appears with an option to reopen the problem.
+**LeetPrac** is a Chrome extension designed to help you schedule reminders for revisiting LeetCode problems. It allows you to set a specific date and time to practice a problem again, displaying the current date and time before setting the reminder. When the reminder is due, a notification appears with an option to reopen the problem.
 
 ## Features
 
@@ -19,14 +19,13 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
 
 1. **Clone or Download**:
    - Clone this repository or download the files to your local machine.
-2. **Add Icons**:
-   - The extension requires an icon file (`icon128.png`) as specified in `manifest.json`. Use the provided icon (a stylized "LC" logo with black, orange, and gray colors) or replace it with your own 128x128 PNG file named `icon128.png`.
-3. **Load the Extension in Chrome**:
+
+2. **Load the Extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable "Developer mode" in the top right.
    - Click "Load unpacked" and select the folder containing the extension files.
-4. **Verify**:
-   - The **LeetReminder** extension should appear in your Chrome extensions list with the provided icon.
+3. **Verify**:
+   - The **LeetPrac** extension should appear in your Chrome extensions list with the provided icon.
 
 ## File Structure
 
@@ -35,7 +34,7 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
 - `popup.js`: Handles the popup logic, including displaying the current date and time, setting reminders, and updating the recent reminders list.
 - `background.js`: Manages alarms and notifications, opening problem URLs when notifications are clicked.
 - `styles.css`: Styles the popup UI, including buttons, input fields, and the reminders list.
-- `icon128.png`: The extension icon (a stylized "LC" logo in black, orange, and gray).
+- `icon128.png`: The extension icon 
 
 ## Usage
 
@@ -50,7 +49,7 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
    - The popup lists up to 5 recent reminders, showing the problem title, reminder time, and status ("Active" or "Expired").
    - Click a reminder to reopen the problem in a new tab.
 4. **Receive Notifications**:
-   - When a reminder is due, a notification appears with the problem title and an "Open Problem" button.
-   - Click the notification or button to open the problem URL.
+   - When a reminder is due, a desktop notification appears with the problem title and an "Open Problem" button.
+   - Click the notification or button to open the problem in your browser.
 
 ## Screenshots
