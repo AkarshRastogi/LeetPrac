@@ -1,8 +1,6 @@
 # LeetPrac
 LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode problems at a chosen date and time. The popup displays the current date and time before setting the reminder. Reminders are stored and trigger notifications when due, helping you stay on track with your LeetCode practice.
 
-# LeetReminder
-
 ## Overview
 
 **LeetPrac** is a Chrome extension designed to help you schedule reminders for revisiting LeetCode problems. It allows you to set a specific date and time to practice a problem again, displaying the current date and time before setting the reminder. When the reminder is due, a notification appears with an option to reopen the problem.
@@ -39,7 +37,7 @@ LeetPrac is a Chrome extension that lets you set reminders to revisit LeetCode p
 ## Usage
 
 1. **Open the Popup**:
-   - Click the **LeetReminder** icon in Chrome's toolbar to open the popup.
+   - Click the **LeetPrac** icon in Chrome's toolbar to open the popup.
 2. **Set a Reminder**:
    - Navigate to a LeetCode problem page (e.g., `https://leetcode.com/problems/two-sum/`).
    - The popup will display the problem title (e.g., "TWO SUM") and the current date and time
